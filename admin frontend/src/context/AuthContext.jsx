@@ -80,7 +80,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API_URL = 'https://finall-backend-v2bn.onrender.com/user'; // Base URL for admin routes
+const API_URL = 'https://final-backend-jg3b.onrender.com/user'; // Base URL for admin routes
 
 export const AuthProvider = ({ children }) => {
     // 1. Initial State: Start unauthenticated to force login screen on load
