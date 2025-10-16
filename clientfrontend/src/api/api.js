@@ -1,7 +1,7 @@
 // src/api/api.js
 import axios from 'axios';
 
-const BASE_URL = 'https://finall-backend-v2bn.onrender.com'; 
+const BASE_URL = 'https://final-backend-jg3b.onrender.com'; 
 
 // ----------------------------------------------------
 // Axios instance (No token needed for client side)
