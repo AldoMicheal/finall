@@ -5,7 +5,7 @@ import axios from 'axios';
 import { FaTrash, FaPlus, FaListAlt } from 'react-icons/fa';
 import '../styles/Management.css'; // Reusing the same styles
 
-const API_BASE_URL = 'https://finall-backend-v2bn.onrender.com/img';
+const API_BASE_URL = 'https://final-backend-jg3b.onrender.com/img';
 
 const ImageManagement = () => {
     const [images, setImages] = useState([]);
