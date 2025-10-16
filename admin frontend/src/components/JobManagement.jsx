@@ -5,7 +5,7 @@ import axios from 'axios';
 import { FaEdit, FaTrash, FaPlus, FaListAlt } from 'react-icons/fa';
 import '../styles/Management.css'; // Create a generic CSS file for all management components
 
-const API_BASE_URL = 'workabroadwithlenhart@gmail.com/job';
+const API_BASE_URL = 'https://final-backend-jg3b.onrender.com/job';
 
 const JobManagement = () => {
     const [jobs, setJobs] = useState([]);
