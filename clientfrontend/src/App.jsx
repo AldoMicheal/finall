@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 // Import Layout Components
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
-import WhatsAppFloat from './components/Layout/WhatsAppFloat'; // Assuming you create this simple component
+import WhatsAppFloat from './components/Layout/WhatsappFloat'; // Assuming you create this simple component
 
 // Import Page Components
 import Home from './pages/Home';
