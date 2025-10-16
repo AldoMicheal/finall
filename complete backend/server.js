@@ -39,7 +39,7 @@ const jobroute=require("./routes/jobroute");
 const adroute=require("./routes/adminroute");
 const dbconnection=require("./config/dbconnection");
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const dotenv=require("dotenv").config()
 const cors=require("cors")
 
