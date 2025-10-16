@@ -43,19 +43,19 @@ const AboutUs = () => {
                             
                             <div className="stats-grid">
                                 <div className="stat-item">
-                                    <div className="stat-number" data-target="1000">0</div>
+                                    <div className="stat-number" data-target="1000">1000</div>
                                     <div className="stat-label">Successful Placements</div>
                                 </div>
                                 <div className="stat-item">
-                                    <div className="stat-number" data-target="20">0</div>
+                                    <div className="stat-number" data-target="20">20</div>
                                     <div className="stat-label">Countries Served</div>
                                 </div>
                                 <div className="stat-item">
-                                    <div className="stat-number" data-target="95">0</div>
+                                    <div className="stat-number" data-target="95">95</div>
                                     <div className="stat-label">Success Rate %</div>
                                 </div>
                                 <div className="stat-item">
-                                    <div className="stat-number" data-target="5">0</div>
+                                    <div className="stat-number" data-target="5">5</div>
                                     <div className="stat-label">Years Experience</div>
                                 </div>
                             </div>
