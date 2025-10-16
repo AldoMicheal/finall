@@ -113,7 +113,7 @@ h1,h2{
             scroll-behavior: smooth;
         }
 
-        Loading Animation
+        /* Loading Animation */
         .loading-overlay {
             position: fixed;
             top: 0;
