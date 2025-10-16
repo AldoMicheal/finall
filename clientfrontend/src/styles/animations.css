@@ -1,0 +1,48 @@
+/* src/styles/animations.css */
+
+/* Keyframe for the dynamic banner entry/exit */
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Quick exit to the left */
+        opacity: 0;
+    }
+}
+
+/* Base keyframes from your original code (ensure they are included in your combined CSS too) */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Keyframe for the perpetual logo scroll (from style.css) */
+@keyframes scrollLogos {
+    /* Define the end point based on your original logo set width */
+    to {
+        transform: translateX(-1500px); 
+    }
+}
+
+/* Keyframe for industry scroll (from style.css) */
+@keyframes scroll {
+    /* Define the end point based on 8 cards */
+    to {
+        transform: translateX(calc(-280px * 8 - 2rem * 8));
+    }
+}
