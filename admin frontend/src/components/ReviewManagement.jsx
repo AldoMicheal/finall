@@ -5,7 +5,7 @@ import axios from 'axios';
 import { FaEdit, FaTrash, FaPlus, FaListAlt } from 'react-icons/fa';
 import '../styles/Management.css'; 
 
-const API_BASE_URL = 'https://finall-backend-v2bn.onrender.com/review';
+const API_BASE_URL = 'https://final-backend-jg3b.onrender.com/review';
 
 const ReviewManagement = () => {
     const [reviews, setReviews] = useState([]);
