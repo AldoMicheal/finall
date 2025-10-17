@@ -44,7 +44,7 @@ const dotenv=require("dotenv").config()
 const cors=require("cors")
 
 // 🚨 CRITICAL FIX: Allowing both frontend ports (5173 for admin, 5174 for client)
-const allowedOrigins = ['https://finall-admin.onrender.com', 'https://lenhartglobalconsultancy.com'];
+const allowedOrigins = ['https://finall-admin.onrender.com', 'https://www.lenhartglobalconsultancy.com'];
 
 app.use(cors({
     origin: function (origin, callback) {
