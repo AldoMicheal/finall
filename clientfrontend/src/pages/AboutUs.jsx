@@ -38,7 +38,7 @@ const AboutUs = () => {
                                 <span>Our Story</span>
                             </div>
                             <h2>Your Trusted Partner in Global Career Success</h2>
-                            <p>Founded with a vision to bridge the gap between talented professionals and international opportunities, Leart Global Consultancy has emerged as a leading force in the global recruitment and migration industry.</p>
+                            <p>Founded with a vision to bridge the gap between talented professionals and international opportunities, Lenhart Global Consultancy has emerged as a leading force in the global recruitment and migration industry.</p>
                             <p>Our journey began with a simple belief: that talent knows no borders, and every skilled professional deserves the opportunity to pursue their dreams on a global stage. Today, we stand proud as facilitators of over 1000+ successful international career transitions.</p>
                             
                             <div className="stats-grid">
@@ -135,7 +135,7 @@ const AboutUs = () => {
                     <div className="section-header">
                         <div className="section-badge"><i className="fas fa-star"></i><span>Why Choose Us</span></div>
                         <h2>What Sets Us Apart</h2>
-                        <p>Discover the unique advantages that make Leart Global Consultancy the preferred choice for international career development.</p>
+                        <p>Discover the unique advantages that make Lenhart Global Consultancy the preferred choice for international career development.</p>
                     </div>
                     <div className="features-grid">
                         <div className="feature-item"><div className="feature-icon"><i className="fas fa-globe-americas"></i></div><h4>Global Network</h4><p>Extensive partnerships with employers and institutions across 20+ countries, ensuring diverse opportunities for our clients.</p></div>
